@@ -1,0 +1,45 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Lilita+One&display=swap');
+
+:root {
+  --ifm-color-primary: #505b92;
+  --ifm-color-primary-dark: #495281;
+  --ifm-color-primary-darker: #44567a;
+  --ifm-color-primary-darkest: #3b4a6c;
+  --ifm-color-primary-light: #5765a2;
+  --ifm-color-primary-lighter: #5e6eaa;
+  font-family: 'Comfortaa';
+  --ifm-color-primary-lightest: #6a79b8;
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #b9c3ff;
+  --ifm-color-primary-dark: #a8b3f5;
+  --ifm-color-primary-darker: #99a6eb;
+  --ifm-color-primary-darkest: #7e8fdc;
+  --ifm-color-primary-light: #cad2ff;
+  --ifm-color-primary-lighter: #d4daff;
+  --ifm-color-primary-lightest: #e6ebff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Lilita One', sans-serif;
+  font-weight: normal;
+  margin: 5px;
+}
