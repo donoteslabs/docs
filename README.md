@@ -1,3 +1,2 @@
-# docs
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/donoteslabs/docs)
+# DoNotes Documentation
+Here lies the source code for the DoNotes documentation website, found at [(https://docs.donotes.app)https://docs.donotes.app]
